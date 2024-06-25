@@ -1,0 +1,91 @@
+
+body {
+    margin: 0;
+}
+header {
+    background-color: rgb(46, 83, 46);
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    list-style: none;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+.flat-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.title {
+    color: white;
+}
+.wrapper {
+    background-color: rgb(228, 226, 226);
+    box-shadow: 0px 1px 5px 1px rgba(82,80,82,1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    gap: 1rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.city-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    
+}
+.price {
+    color: green;
+}
+
+.indicator {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+
+}
+.GOOD {
+    background-color: green;
+}
+.MIDIUM {
+    background-color: yellow;
+}
+.BAD {
+    background-color: red;
+}
+.btn {
+    align-self: self-end;
+}
+.delete-btn {
+    padding: 0.5rem;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 6px;
+    border: none;
+}
+.delete-btn:hover {
+    background-color: rgb(155, 9, 9);
+    transform: translateY(0.1rem);
+    /* transform: translateX(0.2rem); */
+    /* background-color: blue; */
+}
